@@ -9,10 +9,14 @@
     schema:hobby "Football" ;
     schema:email "Alvaro.SanabriaDiaz@ugent.be" ;
     foaf:knows <https://ginfinai.be/#me> ;
-    foaf:knows <https://gc-cc.github.io/#me> .
+    foaf:knows <https://gc-cc.github.io/#me> ;
+    schema:course <https://pietercolpaert.be/teaching/kg/#2024-2025> .
 
 <https://ginfinai.be/#me> a foaf:Person ;
     foaf:name "Gerben Ceuppens" .
 
 <https://gc-cc.github.io/#me> a foaf:Person ;
     foaf:name "Guy Cools" .
+
+<https://pietercolpaert.be/teaching/kg/#2024-2025> a schema:Course ;
+    schema:name "Knowledge Graphs Course 2024-2025" ;

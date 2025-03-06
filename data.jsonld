@@ -16,7 +16,8 @@
       "foaf:knows": [
         { "@id": "https://ginfinai.be/#me" },
         { "@id": "https://gc-cc.github.io/#me" }
-      ]
+      ],
+      "schema:course": { "@id": "https://pietercolpaert.be/teaching/kg/#2024-2025" }
     },
     {
       "@id": "https://ginfinai.be/#me",
@@ -27,7 +28,11 @@
       "@id": "https://gc-cc.github.io/#me",
       "@type": "foaf:Person",
       "foaf:name": "Guy Cools"
+    },
+    {
+      "@id": "https://pietercolpaert.be/teaching/kg/#2024-2025",
+      "@type": "schema:Course",
+      "schema:name": "Knowledge Graphs Course 2024-2025",
     }
   ]
 }
-
