@@ -1,0 +1,18 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+
+<https://username.github.io.> a foaf:Person ;
+  foaf:name "Alvaro Sanabria Diaz" .
+  schema:occupation "Knowledge Graphs Student" .
+  schema:gender "Male" .
+  schema:nationality "Spanish" .
+  schema:hobby "Football" .
+  schema:email "Alvaro.SanabriaDiaz@ugent.be" .
+  foaf:knows <https://ginfinai.be/#me> .
+  foaf:knows <https://gc-cc.github.io/#me> .
+
+<https://ginfinai.be/#me> a foaf:Person ;
+    foaf:name "Gerben Ceuppens" .
+
+<https://gc-cc.github.io/#me> a foaf:Person ;
+    foaf:name "Guy Cools" .
