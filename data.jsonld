@@ -5,7 +5,7 @@
   },
   "@graph": [
     {
-      "@id": "https://username.github.io",
+      "@id": "https://alvarosd39.github.io",
       "@type": "foaf:Person",
       "foaf:name": "Alvaro Sanabria Diaz",
       "schema:occupation": "Knowledge Graphs Student",
