@@ -1,0 +1,16 @@
+RDF Data Accessible at: https://alvarosd39.github.io/data.ttl
+
+1. Data Accessibility: 
+   The RDF data is accessible via a direct URL: [https://alvarosd39.github.io/data.ttl](https://alvarosd39.github.io/data.ttl). This URL points directly to the RDF data file, and it is publicly accessible from the web. I have verified that the URL works correctly, and the RDF data can be retrieved.
+
+2. Dereferenceable Named Nodes: 
+   All named nodes in the RDF data, such as `https://alvarosd39.github.io/Alvaro`, are dereferenceable. These nodes lead to actual resources, ensuring that they can be resolved to provide more information about the entities in the RDF graph.
+
+3. Use of Existing Vocabularies: 
+   The RDF data reuses widely accepted vocabularies such as `foaf` for persons and `schema` for various properties like occupation and email. These terms are used in compliance with their domain and range definitions.
+
+4. Correct Semantics of Reused IRIs: 
+   The relationships between the entities are represented correctly using the `foaf` and `schema` vocabularies. For instance, `foaf:knows` correctly represents the relationship between individuals.
+
+5. RDF Format and Validity: 
+   The RDF data is properly formatted in both TTL and JSON-LD formats. It adheres to the RDF standard and can be parsed by RDF tools and query engines, ensuring interoperability.
