@@ -1,0 +1,46 @@
+@base   <https://data.example.org/photo#> .
+@prefix :         <https://data.example.org/photo#> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+
+
+:Photo  a rdfs:Class ;
+        rdfs:label   "Photo"@en ;
+        rdfs:comment "A photographic image."@en .
+
+:Person a rdfs:Class ;
+        rdfs:label   "Person"@en ;
+        rdfs:comment "A human being who can appear in or create a photo."@en .
+
+
+:title a rdf:Property ;
+        rdfs:label "title"@en ;
+        rdfs:comment "Title of the photo."@en ;
+        rdfs:domain :Photo ;
+        rdfs:range  xsd:string .
+
+:photographer a rdf:Property ;
+        rdfs:label "photographer"@en ;
+        rdfs:comment "Author or creator of the photo."@en ;
+        rdfs:domain :Photo ;
+        rdfs:range  :Person .
+
+:depicts a rdf:Property ;
+        rdfs:label "depicts"@en ;
+        rdfs:comment "Person depicted in the photo."@en ;
+        rdfs:domain :Photo ;
+        rdfs:range  :Person .
+
+:takenAt a rdf:Property ;
+        rdfs:label "taken at"@en ;
+        rdfs:comment "Location where the photo was taken."@en ;
+        rdfs:domain :Photo ;
+        rdfs:range  xsd:string .
+
+:description a rdf:Property ;
+        rdfs:label "description"@en ;
+        rdfs:comment "Brief description of the photo."@en ;
+        rdfs:domain :Photo ;
+        rdfs:range  xsd:string .
+

@@ -1,0 +1,17 @@
+@prefix : <https://data.example.org/photo#> .
+@base    <https://data.example.org/photo/data/> .
+
+<self-portrait> a :Photo ;
+    :title "Me enjoying"@en ;
+    :photographer <https://example.org/id#Alvaro> ; 
+    :depicts      <https://example.org/id#Alvaro> ;
+    :takenAt "Italy"@en ;
+    :description "Me sightseeing in Italy"@en .
+
+<concert-lights> a :Photo ;
+    :title "Me riding a snowmobile"@en ;
+    :photographer <https://example.org/id#Alvaro> ;
+    :depicts      <https://example.org/id#Alvaro> ;
+    :takenAt "Rovaniemi"@en ;
+    :description "Riding a snowmobile in Finland"@en .
+
